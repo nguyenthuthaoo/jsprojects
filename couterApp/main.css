@@ -1,0 +1,54 @@
+.counter {
+    background-color: var(--light-blue);
+    border-radius: 2px;
+    width: 380px;
+    color: var(--white);
+    display: block;
+    height: auto;
+    text-align: center;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.count {
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+.button-wrap {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    margin: 10px;
+    min-width: 60px;
+    border-radius: 2px;
+    padding: 8px;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+}
+.btn i {
+    color: var(--black)
+}
+
+.btn-subtract {
+    background-color: #ff4500;
+}
+
+.btn-reset {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.btn-add {
+    background-color: #008000;
+}
+
+.btn:hover {
+    opacity: .8;
+}

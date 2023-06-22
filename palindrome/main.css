@@ -1,0 +1,40 @@
+.container {
+    background-color: var(--light-blue);
+}
+
+.paralindrome-wrap {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 350px;
+    height: 150px;
+    text-align: center;
+}
+
+.input-text {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--color-sec);
+    padding: 12px;
+}
+
+.btn {
+    margin-top: 16px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    min-width: 70px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    border: 1px solid var(--white);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: var(--color-sec);
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 22px;
+}
+

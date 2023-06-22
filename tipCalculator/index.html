@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="calculator">
+                <h1>Tip calculator</h1>
+                <form action="">
+                    <div class="form-group">
+                        <label for="bill">Bill:</label>
+                        <input type="text" id="bill">
+                    </div>
+                    <div class="form-group">
+                        <label for="rate-service">Rate Service:</label>
+                        <select name="service-name" id="service-name">
+                            <option value="0" disabled selected>---Select an option---</option>
+                            <option value="0.15">15% - Excellent</option>
+                            <option value="0.1">10% - Good</option>
+                            <option value="0.05">5% - Fair</option>
+                        </select>
+                    </div>
+                    <button class="calculate">Calculate</button>
+                    <p class="error-msg">Please enter bill and rate service </p>
+                </form>
+                <div class="result">
+                    <p>Tip: <span class="tip-count">$0</span></p>
+                    <p>Total Amount: <span class="total-amount">$0</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>

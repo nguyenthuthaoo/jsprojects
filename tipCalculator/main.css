@@ -1,0 +1,80 @@
+section {
+    background-color: var(--light-blue);
+}
+
+.calculator {
+    width: 400px;
+    background-color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    color: #fff;
+    background-color: var(--color-sec);
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+}
+
+.form-group {
+    display: flex;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input, select {
+    font-size: 16px;
+    padding: 8px;
+    width: 200px;
+    text-align: right;
+    outline: none;
+}
+option {
+    padding: 10px;
+}
+
+
+.calculate {
+    margin-top: 16px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    min-width: 100px;
+    background-color: var(--color-primary);
+    color: var(--white);
+    border: 1px solid var(--white);
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+}
+.calculate:hover {
+    background-color: var(--color-sec);
+}
+
+.error-msg {
+    display: none;
+    color: red;
+}
+
+.result {
+    padding: 15px;
+}
+
+.result p {
+    text-align: left;
+    font-size: 22px;
+    background-color: var(--grey);
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+
+
