@@ -1,0 +1,94 @@
+
+
+.container {
+
+}
+
+.main-container {
+    width: 635px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 30px rgba(0, 0, 0, 0.5);
+}
+
+.img__container  {
+    width: 50%;
+    background-color: var(--light-blue);
+    padding: 20px;
+    animation: slide-up 0.7s ease 1;
+}
+
+.form-container {
+    padding: 20px;
+    background-color: var(--grey);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: slide-down 0.7s ease 1;
+}
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-group {
+    margin: 10px auto;
+    text-align: center;
+}
+
+input {
+    font-size: 20px;
+}
+
+button.btn {
+    width: 100%;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    font-size: 12px;
+    text-decoration: none;
+}
+a, p {
+    text-align: left;
+    font-size: 12px;
+}
+
+.reset-password {
+    position: relative;
+}
+
+i.close {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 18px;
+    color: var(--light-blue);
+    cursor: pointer;
+}
+
+@keyframes  slide-down {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes  slide-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.register, .reset-password{
+    display: none;
+}
