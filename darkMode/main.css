@@ -1,0 +1,98 @@
+body {
+    background-color: var(--background);
+}
+.section {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.container-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    color: var(--foreground);
+}
+
+.content-left h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.btn {
+    font-size: 14px;
+    color: var(--background);
+}
+.btn-primary {
+    background: var(--foreground);
+    color: var(--background);
+}
+
+.btn-primary:hover {
+    background: var(--foreground);
+    color: var(--background);
+}
+
+.btn-orange {
+    background-color: var(--color-orange);
+    color: var(--color-light)
+}
+
+.btn-orange:hover {
+    background-color: var(--color-orange);
+    color: #fff;
+}
+
+.img-wrap {
+    width: 400px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--foreground);
+    color: var(--background);
+    font-size: 14px;
+}
+
+.toogle-darkmode {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border: 1px solid var(--foreground);
+    padding: 4px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: var(--foreground);
+}
+
+.text-mode {
+    font-size: 16px;
+    margin-right: 4px;
+}
+
+.icon-mode {
+    font-size: 16px;
+}
+
+:root {
+    --color-light: #eee;
+    --color-dark: #222831;
+    --color-orange: #db6400;
+    --background: var(--color-light);
+    --foreground: var(--color-dark);
+  }
+
+.darkmode {
+    --color-light: #eee;
+    --color-dark: #222831;
+    --color-orange: #db6400;
+    --background: var(--color-dark);
+    --foreground: var(--color-light);
+}
